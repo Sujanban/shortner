@@ -1,7 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
-import { ToastContainer, toast } from 'react-toastify';
-import 'react-toastify/dist/ReactToastify.css';
 
 export const Search = () => {
     const [shortenLink, setShortenLink] = useState('');
@@ -27,7 +25,6 @@ export const Search = () => {
         const response = await axios.get(`https://api.shrtco.de/v2/shorten?url=${inputValue}`);
         setShortenLink(response.data.result.full_short_link)
     }
-    const notify = () => toast("Wow so easy !");
     useEffect(() => {
         if (inputValue.length) {
             fetchApi()

@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/shortner/static/css/main.3a99cc49.css",
+    "main.js": "/shortner/static/js/main.cab5bc9c.js",
+    "static/media/deliver.png": "/shortner/static/media/deliver.efbcc3eb01a306f30edd.png",
+    "static/media/grow.png": "/shortner/static/media/grow.2b0d051aa4ade102aa14.png",
+    "static/media/easy.png": "/shortner/static/media/easy.38ed00a70a4a59a4f0db.png",
+    "static/media/safe.png": "/shortner/static/media/safe.17dbf95ad0213d8b0f9f.png",
+    "index.html": "/shortner/index.html",
+    "main.3a99cc49.css.map": "/shortner/static/css/main.3a99cc49.css.map",
+    "main.cab5bc9c.js.map": "/shortner/static/js/main.cab5bc9c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3a99cc49.css",
+    "static/js/main.cab5bc9c.js"
+  ]
+}

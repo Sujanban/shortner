@@ -24,10 +24,10 @@ export const Navbar = () => {
                     </a>
                 </div>
                 <ul className='hidden md:flex items-center space-x-4'>
-                    <li><a className='px-3 py-2 text-slate-600 hover:text-slate-800 rounded-md font-medium' href="#about">About</a></li>
-                    <li><a className='px-3 py-2 text-slate-600 hover:text-slate-800 rounded-md font-medium' href="#contact">Contact</a></li>
-                    <li><a className='px-3 py-2 text-slate-600 hover:text-slate-800 rounded-md font-medium' href="#howitworks">How it Works</a></li>
-                    <li><a className='px-3 py-3 text-white bg-blue-600 rounded-md font-medium' href="#home">Get Started</a></li>
+                    <li><a onClick={()=> setToggle(false)} className='px-3 py-2 text-slate-600 hover:text-slate-800 rounded-md font-medium' href="#about">About</a></li>
+                    <li><a onClick={()=> setToggle(false)} className='px-3 py-2 text-slate-600 hover:text-slate-800 rounded-md font-medium' href="#contact">Contact</a></li>
+                    <li><a onClick={()=> setToggle(false)} className='px-3 py-2 text-slate-600 hover:text-slate-800 rounded-md font-medium' href="#howitworks">How it Works</a></li>
+                    <li><a onClick={()=> setToggle(false)} className='px-3 py-3 text-white bg-blue-600 rounded-md font-medium' href="#home">Get Started</a></li>
                 </ul>
                 <div className='rotate-180 md:hidden'>
                     <RiBarChartHorizontalLine 
@@ -36,10 +36,10 @@ export const Navbar = () => {
                     />
                 </div>
                 <ul className={` ${toggle ? 'flex' : ' hidden'} shadow-md absolute md:hidden w-full top-[10vh] left-0 flex flex-col items-center bg-white justify-centermd:hidden`}>
-                    <li className='py-2'><a href="#about">About</a></li>
-                    <li className='py-2'><a href="#contact">Contact</a></li>
-                    <li className='py-2'><a href="#howitworks">How it Works</a></li>
-                    <li className='py-2 grid'><a href="#home" className='px-3 py-3 text-white rounded-md bg-blue-600'>Get Started</a></li>
+                    <li className='py-2'><a onClick={()=> setToggle(false)} href="#about">About</a></li>
+                    <li className='py-2'><a onClick={()=> setToggle(false)} href="#contact">Contact</a></li>
+                    <li className='py-2'><a onClick={()=> setToggle(false)} href="#howitworks">How it Works</a></li>
+                    <li className='py-2 grid'><a onClick={()=> setToggle(false)} href="#home" className='px-3 py-3 text-white rounded-md bg-blue-600'>Get Started</a></li>
                 </ul>
             </nav>
         </header>

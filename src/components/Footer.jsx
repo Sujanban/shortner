@@ -5,7 +5,7 @@ import { AiFillHeart } from "react-icons/ai";
 export const Footer = () => {
     return (
         <div className='px-8 bg-blue-900'>
-            <div className='container m-auto py-12'>
+            <div className=' container m-auto py-12'>
                 <footer className='grid md:grid-cols-3 gap-4 text-white'>
                     <div>
                         <a href="">

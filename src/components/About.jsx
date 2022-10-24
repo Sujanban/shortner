@@ -1,5 +1,4 @@
 import React from 'react'
-import { SiTrustpilot } from "react-icons/si";
 import device from "../assets/device.png";
 import like from "../assets/like.png";
 import link from "../assets/link.png";
