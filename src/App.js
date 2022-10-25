@@ -12,9 +12,9 @@ function App() {
     <div className="App selection:bg-blue-200">
       <Navbar/>
       <Hero/>
-      <Works/>
-      <Banner/>
       <About/>
+      <Banner/>
+      <Works/>
       <Contact/>
       <Footer/>
     </div>
